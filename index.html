@@ -7,7 +7,14 @@
 <meta name="author" content="SitePoint">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Kristi" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Kristi" rel="stylesheet">
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/jquery.matchHeight.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('.matchHeight').matchHeight();
+});
+</script>
 <!--[if lt IE 9]>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
 <![endif]-->
@@ -66,9 +73,60 @@
 	</section>
 	<section id="bookmarks">
 		<h2>Bookmarks</h2>
+		<div class="main">
+			<ul class="bookmarksList">
+				<li class="matchHeight">
+					<a href="#">
+						<img src="https://placehold.jp/200x40.png" width="200" height="40">
+						<div>
+							<span>site name</span> Author
+						</div>
+					</a>
+				</li>
+				<li class="matchHeight">
+					<a href="#">
+						<img src="https://placehold.jp/200x40.png" width="200" height="40">
+						<div>
+							<span>site name</span> Author
+						</div>
+					</a>
+				</li>
+				<li class="matchHeight">
+					<a href="#">
+						<img src="https://placehold.jp/200x40.png" width="200" height="40">
+						<div>
+							<span>site name</span> Author
+						</div>
+					</a>
+				</li>
+				<li class="matchHeight">
+					<a href="#">
+						<img src="https://placehold.jp/200x40.png" width="200" height="40">
+						<div>
+							<span>site name</span> Author
+						</div>
+					</a>
+				</li>
+				<li class="matchHeight">
+					<a href="#">
+						<img src="https://placehold.jp/200x40.png" width="200" height="40">
+						<div>
+							<span>site name</span> Author
+						</div>
+					</a>
+				</li>
+				<li class="matchHeight">
+					<a href="#">
+						<img src="https://placehold.jp/200x40.png" width="200" height="40">
+						<div>
+							<span>site name</span> Author
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
 	</section>
-	<footer>&copy; 2011</footer>
 </div>
-<script src="js/scripts.js"></script>
+<footer>&copy; 2011</footer>
 </body>
 </html>

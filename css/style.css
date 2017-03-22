@@ -79,6 +79,13 @@ header ul li a{
 header ul li a:hover{
 	color: #000;
 }
+footer{
+	background: #abced8;
+	background: -moz-linear-gradient(top, #ffffff 0%, #abced8 15%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#abced8 15%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #ffffff 0%,#abced8 15%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
 .main{
 	margin: 0 auto;
 	width: 50%;
@@ -98,14 +105,31 @@ header ul li a:hover{
 .worksList li:nth-child(5n){
 	margin-right: 0;
 }
+/*Bookmarks*/
+.bookmarksList{
+	font-size: 0;
+	line-height: 0;
+}
+.bookmarksList li{
+	display: inline-block;
+	width: 200px;
+	margin: 0 100px 25px 50px;
+	font-size: 12px;
+	line-height: 175%;
+}
+.bookmarksList li:nth-child(2n){
+	margin: 0 50px 25px 0px;
+}
+.bookmarksList li div span{
+	font-size: 16px;
+}
+.bookmarksList li div span:after{
+	font-size: 12px;
+	content: ' ...';
+}
+
 
 /* smartPhone */
-@media screen and (max-width: 640px) {
-/*ここにスマホ用スタイルを記述*/
-	h1{
-		font-size: 48px;
-	}
-	h2{
-		font-size: 32px;
-	}
+@media screen and (max-width: 600px) {
+
 }
