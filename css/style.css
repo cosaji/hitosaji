@@ -40,19 +40,10 @@ a:hover{
 	margin: 0 auto;
 	max-width: 1200px;
 }
-/*Top image*/
-#topImage{
-	/*auto sizing*/
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	background: url(../img/top.jpg) center center no-repeat;
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-	padding-top: 50%;
-	margin: 0 0 40px 0;
-}
 /*header*/
+#headerArea{
+	margin: 40px 0 0 0;
+}
 header{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,abced8+15,abced8+85,ffffff+100 */
 	background: #abced8;
