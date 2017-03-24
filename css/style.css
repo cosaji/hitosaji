@@ -6,6 +6,9 @@ body{
 	font-size: 12px;
 	line-height: 175%;
 }
+section{
+	margin-bottom: 48px;
+}
 h1{
 	color: #0f2350;
 	font-family: 'Kristi', cursive;
@@ -16,12 +19,18 @@ h1{
 }
 h2{
 	color: #165e83;
+	font-size: 60px;
+	font-family: 'Kristi', cursive;
+	margin: 0.5em 0;
+}
+h3{
+	color: #165e83;
 	font-family: 'Kristi', cursive;
 	font-size: 48px;
 	margin: 1em 0;
 	text-align: center;
 }
-h3{
+h4{
 	font-family: 'Kristi', cursive;
 	font-size: 36px;
 }
@@ -33,13 +42,31 @@ a{
 	text-decoration: none;
 }
 a:hover{
-	color: #884898;
+	color: #1e90ff;
+}
+p{
+	margin: 0 0 1em 0;
+}
+p:last-child{
+	margin-bottom: 0;
 }
 
+/*common*/
 .content{
 	margin: 0 auto;
 	max-width: 1200px;
 }
+.txtC{
+	text-align: center;
+}
+.txtR{
+	text-align: right;
+}
+.more{
+	font-family: 'Kristi', cursive;
+	font-size: 36px;
+}
+
 /*header*/
 #headerArea{
 	margin: 40px 0 0 0;
@@ -55,7 +82,7 @@ header{
 header ul{
 	font-family: 'Kristi', cursive;
 	font-size: 48px;
-	margin: 1em 0;
+	margin: 1em 0 0.5em 0;
 	padding: 0.5em;
 	text-align: center;
 }
@@ -91,12 +118,26 @@ footer{
 	margin: 0 auto;
 	width: 50%;
 }
+/*pageTitle*/
+#pageTitle{
+	text-align: center;
+}
+.pageLink li{
+	display: inline-block;
+	font-size: 12px;
+}
+.pageLink li:after{
+	content: ' / ';
+}
+.pageLink li:last-child:after{
+	content: '';
+}
 /*Information*/
 .infoList li{
 	margin: 0 0 2em 0;
 	text-align: center;
 }
-.infoList h3{
+.infoList h4{
 	color: #abced8;
 	line-height: 100%;
 }
@@ -136,7 +177,6 @@ footer{
 	font-size: 12px;
 	content: ' ...';
 }
-
 
 /* smartPhone */
 @media screen and (max-width: 600px) {
